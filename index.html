@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f5ef">
+  <meta name="description" content="Vashawn Leonardi is a Computer Science student at Taylor’s University who enjoys building software and interactive projects.">
+  <meta property="og:title" content="Vashawn Leonardi — Portfolio">
+  <meta property="og:description" content="A selection of projects, experience, and things I'm learning.">
+  <meta property="og:type" content="website">
+  <title>Vashawn Leonardi — Portfolio</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Newsreader:opsz,wght@6..72,400;6..72,500;6..72,600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Vashawn Leonardi, home">Vashawn Leonardi<span class="brand-period">.</span></a>
+    <button class="menu-toggle" type="button" aria-label="Open navigation" aria-expanded="false"><span></span><span></span></button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#work">Projects</a>
+      <a href="#about">About</a>
+      <a href="#experience">Experience</a>
+      <a class="nav-contact" href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="hero page-width">
+      <p class="availability"><span aria-hidden="true"></span> COMPUTER SCIENCE STUDENT · TAYLOR’S UNIVERSITY</p>
+      <h1>Hi, I’m Vash.<br>I like <em>making things</em><br>that work.</h1>
+      <div class="hero-bottom">
+        <p class="hero-intro">I’m a Computer Science student interested in artificial intelligence, software engineering, game development, and the process of turning an idea into something people can actually use.</p>
+        <div class="hero-links"><a class="button" href="#work">See what I’ve built <span aria-hidden="true">↓</span></a><a class="plain-link" href="https://mailto:vashawnleonardi@gmail.com">Or say hello <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="hero-rule"><span>Currently learning, building, and figuring things out.</span><a href="#work">Scroll to projects ↓</a></div>
+    </section>
+
+    <section id="work" class="page-width section work-section">
+      <div class="section-heading"><div><p class="eyebrow">01 / PROJECTS</p><h2>A few things I’ve made.</h2></div><p class="section-intro">These projects gave me a chance to practise building systems, solving problems, and taking an idea from concept to a working game.</p></div>
+
+      <article class="project-card">
+        <div class="project-media" data-video-container>
+          <video class="project-video" controls playsinline preload="metadata" aria-label="Eco Heroes gameplay video">
+            <source src="videos/eco-heroes.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+          <div class="video-fallback"><span class="fallback-label">GAMEPLAY VIDEO</span><p>Eco Heroes recording here.</p><code>videos/eco-heroes.mp4</code></div>
+        </div>
+        <div class="project-content">
+          <div class="project-meta"><span>TEAM PROJECT</span><span>DEC 2025 — APR 2026</span></div>
+          <h3>Eco Heroes</h3>
+          <p class="project-type">An educational recycling game</p>
+          <p>A 2D game designed to teach students about recycling and waste management through interactive play.</p>
+          <ul><li>Implemented navigation, inventory, recycling, shop/economy, and character selection systems.</li><li>Built supporting features including audio settings and an interactive tutorial.</li><li>Tested and debugged interconnected gameplay systems.</li></ul>
+          <div class="tags"><span>Godot</span><span>GDScript</span><span>Game systems</span></div>
+          <p class="project-link-note">Repository or playable demo link can be added here when available.</p>
+        </div>
+      </article>
+
+      <article class="project-card">
+        <div class="project-media" data-video-container>
+          <video class="project-video" controls playsinline preload="metadata" aria-label="The Green Architect gameplay video">
+            <source src="videos/green-architect.mp4" type="video/mp4">
+            Your browser does not support HTML video.
+          </video>
+          <div class="video-fallback"><span class="fallback-label">GAMEPLAY VIDEO</span><p>Green Architect recording here.</p><code>videos/green-architect.mp4</code></div>
+        </div>
+        <div class="project-content">
+          <div class="project-meta"><span>SOLO PROJECT</span><span>MAR — APR 2025</span></div>
+          <h3>The Green Architect</h3>
+          <p class="project-type">A sustainability-focused city simulation</p>
+          <p>A tycoon-style game about sustainable housing, resource management, and making financial decisions through policy.</p>
+          <ul><li>Implemented resource management, upgrades, economic variables, and government grants.</li><li>Designed and developed the game systems, logic, and visual assets independently.</li><li><strong>5th place</strong> — PENABUR Kids Festival Coding Competition.</li></ul>
+          <div class="tags"><span>Godot</span><span>GDScript</span><span>Simulation</span><span>Systems design</span></div>
+          <p class="project-link-note">Repository or playable demo link can be added here when available.</p>
+        </div>
+      </article>
+      <p class="media-note">The video areas are intentionally plain. Add your own gameplay recordings using the filenames shown, or change the video paths in <code>index.html</code>.</p>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="page-width about-grid">
+        <div><p class="eyebrow">02 / ABOUT</p><h2>Still learning.<br><em>Already building.</em></h2></div>
+        <div class="about-copy">
+          <p class="about-lead">I enjoy figuring out how things work, then seeing if I can make something useful out of what I’ve learned.</p>
+          <p>I’m studying for a Bachelor of Computer Science (Honours) at Taylor’s University. So far, I’ve explored programming through game development and web technologies, and I’m working on strengthening my fundamentals as I go.</p>
+          <p>I’m not trying to pretend I know everything. I’d rather keep learning, make more things, and be able to explain the choices behind what I build.</p>
+          <div class="small-facts"><div><strong>92.62 / 100</strong><span>High school average</span></div><div><strong>7.5</strong><span>IELTS Academic overall</span></div><div><strong>Indonesia → Malaysia</strong><span>Where I’ve studied</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="page-width section experience-section">
+      <div class="section-heading"><div><p class="eyebrow">03 / EXPERIENCE</p><h2>More than projects.</h2></div><p class="section-intro">A few experiences that helped me practise problem-solving, responsibility, and working with other people.</p></div>
+      <div class="experience-list">
+        <article class="experience-item"><p class="experience-date">JUN 2025</p><div><h3>OSN-P Informatics</h3><p>Qualified participant at the provincial stage of Indonesia’s national informatics olympiad.</p></div><span class="experience-kind">COMPETITION</span></article>
+        <article class="experience-item"><p class="experience-date">SEP 2024 — DEC 2025</p><div><h3>Community Social Project Group</h3><p>Served as Person in Charge (PIC) for school community-service projects, including a tree-planting activity and helping a local street-food vendor.</p></div><span class="experience-kind">LEADERSHIP</span></article>
+        <article class="experience-item"><p class="experience-date">SEP 2023 — MAY 2026</p><div><h3>Peer Tutor · SMAK PENABUR Kota Tangerang</h3><p>Helped fellow students understand Mathematics and Physics concepts and work through problems.</p></div><span class="experience-kind">PEER SUPPORT</span></article>
+      </div>
+    </section>
+
+    <section class="skills-section"><div class="page-width skills-grid"><div><p class="eyebrow">04 / TOOLKIT</p><h2>What I’ve been<br>working with.</h2></div><div class="skills-content"><div class="skill-row"><h3>Programming & web</h3><p>Python, C++, JavaScript, HTML, CSS, GDScript</p></div><div class="skill-row"><h3>Tools</h3><p>Godot Engine</p></div><div class="skill-row"><h3>Languages</h3><p>Indonesian (native), English (IELTS Academic 7.5)</p></div></div></div></section>
+
+    <section id="contact" class="page-width contact-section"><p class="eyebrow">05 / CONTACT</p><h2>Have a project in mind<br>or just want to <em>connect?</em></h2><p class="contact-copy">I’m happy to meet people who enjoy learning, building, and working through interesting problems.</p><a class="button" href="https://mailto:vashawnleonardi@gmail.com">Email me <span aria-hidden="true">↗</span></a><p class="contact-email">vashawnleonardi@gmail.com</p></section>
+  </main>
+
+  <footer class="page-width footer"><a class="brand" href="#top">Vashawn Leonardi<span class="brand-period">.</span></a><p>Made by me, with HTML, CSS, and JavaScript.</p><a href="#top">Back to top ↑</a><small>© <span id="year">2026</span> Vashawn Leonardi. All rights reserved.</small></footer>
+  <script src="script.js"></script>
+</body>
+</html>
